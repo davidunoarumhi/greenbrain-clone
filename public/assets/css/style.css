@@ -39,7 +39,7 @@ nav .btn a:hover {
 }
 .container {
     padding: 35px;
-    margin: 75px;
+    margin: 75px auto;
 }
 .filter {
     margin: -2.5em auto;
