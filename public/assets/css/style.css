@@ -467,8 +467,8 @@ label span {
 }
 
 @media only screen and (max-width: 560px) {
-    body {
-        max-width: 560px;
+    .home-body {
+        max-width: 480px;
     }
     #card-box ul {
         display: grid;
