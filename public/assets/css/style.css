@@ -424,6 +424,7 @@ label span {
         color: #fff;
         font-weight: 600;
         font-size: 1rem;
+        padding: 2%;
     }
 }
 @media only screen and (min-width: 821px) {
@@ -445,9 +446,13 @@ label span {
 @media only screen and (max-width: 820px) {
     body {
         max-width: 100%;
+        font-size: smaller;
     }
     #perks .card {
-        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1rem;
+        width: auto;
     }
     #statistics .col-lg-3 {
         margin: 4rem;
