@@ -411,14 +411,14 @@ label span {
     }
     #upload .container .row div {
         margin-top: 2em;
-        margin-right: 5em;
+        font-size: 0.7em;
     }
     #upload button {
         background-color: #219988;
         color: #fff;
         font-weight: 600;
         font-size: 1rem;
-        padding: 2%;
+        padding: 3% 6%;
     }
 }
 @media only screen and (min-width: 820px) {
@@ -443,7 +443,7 @@ label span {
     }
     .container{
         max-width: 100%;
-        padding: 50px;
+        padding: 55px;
     }
     #perks .card {
         margin-bottom: 0;
