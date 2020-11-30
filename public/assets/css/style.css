@@ -409,15 +409,9 @@ label span {
     main {
         max-width: 100%;
     }
-    /* #upload .container{
-        padding: 6% 8%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap: 3rem;
-        font-size: 1.2rem;
-    } */
     #upload .container .row div {
         margin-top: 2em;
+        margin-right: auto;
     }
     #upload button {
         background-color: #219988;
@@ -427,7 +421,7 @@ label span {
         padding: 2%;
     }
 }
-@media only screen and (min-width: 821px) {
+@media only screen and (min-width: 820px) {
     body {
         max-width: 100%;
     }
@@ -449,6 +443,7 @@ label span {
     }
     .container{
         max-width: 100%;
+        padding: 50px;
     }
     #perks .card {
         margin-bottom: 0;
