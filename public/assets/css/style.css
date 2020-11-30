@@ -406,8 +406,8 @@ label span {
     #hero {
         display: none;
     }
-    #welcome {
-        width: auto;
+    main {
+        max-width: auto;
     }
     #upload .container{
         padding: 6% 8%;
