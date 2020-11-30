@@ -407,15 +407,15 @@ label span {
         display: none;
     }
     main {
-        max-width: auto;
+        max-width: 100%;
     }
-    #upload .container{
+    /* #upload .container{
         padding: 6% 8%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 3rem;
         font-size: 1.2rem;
-    }
+    } */
     #upload .container .row div {
         margin-top: 2em;
     }
